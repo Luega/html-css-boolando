@@ -51,10 +51,15 @@ html {
 /* WISHLIST BUTTON  */
 .wishlist {
     background-color: white;
+    border: none;
     padding: 10px;
     position: absolute;
     top: 20px;
     right: 0;
+}
+
+.wishlist:hover {
+    color: red;
 }
 
 /* START FEAUTRES */

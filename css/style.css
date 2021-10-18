@@ -16,10 +16,17 @@ html {
     margin: 0 auto;
 }
 
+.container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 /* START CARD */
 .card {
     width: 33%;
     height: 600px;
+    float: left;
 }
 
 /* START BOX IMMAGES  */
